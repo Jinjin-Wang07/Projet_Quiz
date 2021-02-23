@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamsters version="4">
+    <colors applicationcolor="-11141309" declarativecolor="-1854465" devicecolor="-8879105" inputdevicecolor="-8879105" objectcolor="-14336" outputdevicecolor="-8879105" physicalobjectcolor="-14336" situationalcolor="-3290107" strategiccolor="-4136705" timeccolor="-105247"/>
+    <nodes>
+        <task copy="false" critical="0" folded="false" help="" id="1" iterative="false" maxexectime="0" minexectime="0" name="Do a quiz" nb_iteration="0" optional="false" type="abstractuser" x="247" y="46">
+            <operator id="2" knowledgeproceduraltype="" type="choice" x="264" y="126">
+                <task copy="false" critical="0" folded="false" help="" id="3" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name=" Login     " nb_iteration="0" optional="false" type="input" x="249" y="176">
+                    <operator id="8" knowledgeproceduraltype="" type="choice" x="266" y="274">
+                        <task copy="false" critical="0" folded="false" help="" id="9" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Select a patient" nb_iteration="0" optional="false" type="input" x="225" y="345">
+                            <operator id="32" knowledgeproceduraltype="" type="enable" x="258" y="420">
+                                <task copy="false" critical="0" folded="false" help="" id="31" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Get Home Page of The patient" nb_iteration="0" optional="false" type="output" x="183" y="466">
+                                    <operator id="13" knowledgeproceduraltype="" type="choice" x="258" y="545">
+                                        <task copy="false" critical="0" folded="false" help="" id="14" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="  View Patient Info " nb_iteration="0" optional="false" type="abstractuser" x="39" y="602">
+                                            <operator id="16" knowledgeproceduraltype="" type="choice" x="70" y="689">
+                                                <task copy="false" critical="0" folded="false" help="" id="15" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="View previous exercises" nb_iteration="0" optional="false" type="abstractuser" x="-77" y="768"/>
+                                                <task copy="false" critical="0" folded="false" help="" id="17" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Get Statistic information" nb_iteration="0" optional="false" type="output" x="81" y="768"/>
+                                                <task copy="false" critical="0" folded="false" help="" id="34" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Edit Patient Info" nb_iteration="0" optional="false" type="input" x="-188" y="770"/>
+                                            </operator>
+                                        </task>
+                                        <task copy="false" critical="0" folded="false" help="" id="18" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Add quiz" nb_iteration="0" optional="false" type="input" x="237" y="602">
+                                            <operator id="20" knowledgeproceduraltype="" type="choice" x="247" y="709">
+                                                <task copy="false" critical="0" folded="false" help="" id="21" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Chose the theme of quiz" nb_iteration="0" optional="false" type="abstractuser" x="165" y="859"/>
+                                                <task copy="false" critical="0" folded="false" help="" id="22" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Chose the size of button" nb_iteration="0" optional="false" type="abstractuser" x="335" y="859"/>
+                                            </operator>
+                                        </task>
+                                        <task copy="false" critical="0" folded="false" help="" id="19" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Start a Quiz" nb_iteration="0" optional="false" type="input" x="405" y="602">
+                                            <operator id="26" knowledgeproceduraltype="" type="enable" x="521" y="689">
+                                                <task copy="false" critical="0" folded="false" help="" id="28" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Get Feedback" nb_iteration="0" optional="false" type="output" x="700" y="768"/>
+                                                <task copy="false" critical="0" folded="false" help="" id="25" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Do the test(By Patient)" nb_iteration="0" optional="false" type="input" x="433" y="768"/>
+                                                <task copy="false" critical="0" folded="false" help="" id="27" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Send the result" nb_iteration="0" optional="false" type="input" x="580" y="768"/>
+                                            </operator>
+                                        </task>
+                                    </operator>
+                                </task>
+                            </operator>
+                        </task>
+                        <task copy="false" critical="0" folded="false" help="" id="10" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Add a new patient" nb_iteration="0" optional="false" type="input" x="398" y="334"/>
+                        <task copy="false" critical="0" folded="false" help="" id="30" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Search a patient" nb_iteration="0" optional="false" type="input" x="98" y="345"/>
+                    </operator>
+                </task>
+                <task copy="false" critical="0" folded="false" help="" id="4" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Registre" nb_iteration="0" optional="false" type="input" x="-63" y="188">
+                    <operator id="5" knowledgeproceduraltype="" type="enable" x="-48" y="276">
+                        <task copy="false" critical="0" folded="false" help="" id="7" iterative="false" knowledgeproceduraltype="" maxexectime="0" minexectime="0" name="Login" nb_iteration="0" optional="false" type="input" x="-53" y="334"/>
+                    </operator>
+                </task>
+            </operator>
+        </task>
+        <task copy="false" critical="0" folded="false" help="" id="29" iterative="false" maxexectime="0" minexectime="0" name="Input Task1" nb_iteration="0" optional="false" type="input" x="1383" y="249"/>
+        <task copy="false" critical="0" folded="false" help="" id="33" iterative="false" maxexectime="0" minexectime="0" name="newTaskModel" nb_iteration="0" optional="false" type="abstract" x="-388" y="1353"/>
+    </nodes>
+    <datas/>
+    <errors/>
+    <parameters/>
+</hamsters>
