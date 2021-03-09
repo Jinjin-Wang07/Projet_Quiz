@@ -1,0 +1,30 @@
+PAS D'OBJETS QUI N'ONT PAS DE RAISON D'ÊTRE
+FAUTES D'ORTHOGRAPHES
+ANGLAIS
+PAS DE BOUTON EN DOUBLE (MÊME FONCTIONNALITÉ)
+
+Page de register
+
+Admin:
+	création / modification quizs sobre
+	profiles plus sobre (pas besoin de grandes explications)
+	statistiques plus sobre (pas besoin de grandes explications)
+
+Patients:
+	Log out:
+		fenêtre de demande de pin pour se déconnecter
+	Page settings:
+		thème de couleur prédéfini
+		Aperçu plus clair des modifications apportés
+		choix des boutons prédéfinis (5 types)
+		Démonstration des cas extrèmes
+	Création quiz:
+		expliciter chaque fonctionnalité
+	Jouer Quiz:
+		retravailler les boutons disponibles (pas trop)
+		
+
+
+
+
+
